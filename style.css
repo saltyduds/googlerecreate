@@ -4,44 +4,62 @@
 	font-family: helvetica ;
 	font-size: 12px ;
 	text-decoration: none; 
+
 }
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	min-height: 100%;
+	position: relative;
+}
+
 
 /*HEADER*/
 
+
 nav {
-	margin: 5px 9px;
-	height: 30px;
-	padding: 5px 1px;
+	height: 42px;
+	width: 100%;
+	text-align: justify;
 }
 
-nav li {
+li {
 	list-style-type: none;
 	display: inline-block;
-	margin: 10px 13px;
+	position: relative;
+	max-height: 100%;
+
 }
 
-nav li a {
+li a {
 	text-decoration: none;
+	color: black;
+	display: inline-block;
+	min-height: 100%;
 }
 
-nav li:hover {
+li:hover {
 	text-decoration: underline;
 }
 
 
 
-nav .left {
+.left {
 	float: left;
 }
 
-nav .right {
+.right {
 	float: right;
 }
 
 .apps {
 	height: 20px;
-	position: relative;
-	top: 2px;
+	top: 3px;
 }
 
 .notify {
@@ -53,11 +71,17 @@ nav .right {
 
 .user {
 	border-radius: 24px;
+	top: 4px;
+	position: relative;
 }
 
 
+/*BODY*/
+
 section {
-	margin-top: 103px;
+	padding-top: 103px;
+	min-height: 100%;
+	padding-bottom: 42px;
 }
 
 
@@ -110,4 +134,17 @@ section {
 #im_feeling_lucky {
 	margin-left: auto;
 	/*margin-right: auto;*/
+}
+
+/*FOOTER*/
+
+footer {
+
+	border: #0000 solid thin;
+	position: absolute;
+	background: #0e0e0e1a;
+	height: 42px;
+	width: 100%;
+	bottom: 0px;
+	
 }
