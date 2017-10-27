@@ -6,9 +6,12 @@
 	text-decoration: none; 
 }
 
+/*HEADER*/
+
 nav {
-	margin: 0 ;
+	margin: 5px 9px;
 	height: 30px;
+	padding: 5px 1px;
 }
 
 nav li {
@@ -21,7 +24,7 @@ nav li a {
 	text-decoration: none;
 }
 
-nav li a:hover {
+nav li:hover {
 	text-decoration: underline;
 }
 
@@ -35,18 +38,36 @@ nav .right {
 	float: right;
 }
 
-.content {
-	margin: 0 auto;
-
+.apps {
+	height: 20px;
+	position: relative;
+	top: 2px;
 }
+
+.notify {
+	
+	height: 24px;
+	position: relative;
+	top: 3px;
+}
+
+.user {
+	border-radius: 24px;
+}
+
+
+section {
+	margin-top: 103px;
+}
+
 
 .googlelogo {
 	
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	height: 70px;
-	margin-top: 59px;
+	height: 94px;
+	padding-bottom: 13px;
 }
 
 .searchbar {
@@ -55,11 +76,12 @@ nav .right {
 
 	margin-left: auto;
 	margin-right: auto;
-	width: 384px;
+	width: 430px;
 	margin-top: 10px;
 	border-style: solid;
 	box-shadow: 3px 3px 6px hsl(0, 3.8%, 89.8%);
 	padding: 7px;
+	height: 27px;
 }
 
 .buttons {
@@ -74,6 +96,8 @@ nav .right {
 	height: 36px; width: 125.333px;
 	display: block;
 	border-style: solid;
+	color: gray;
+	font-weight: bold;
 }
 
 #search {
