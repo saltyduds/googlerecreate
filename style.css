@@ -23,9 +23,10 @@ html, body {
 
 
 nav {
-	height: 42px;
+	/*! height: 42px; */
 	width: 100%;
 	text-align: justify;
+	max-height: 100%;
 }
 
 li {
@@ -34,6 +35,8 @@ li {
 	position: relative;
 	max-height: 100%;
 
+	margin: 11px;
+	vertical-align: middle;
 }
 
 li a {
@@ -51,27 +54,29 @@ li:hover {
 
 .left {
 	float: left;
+	min-height: 10%;
 }
 
 .right {
 	float: right;
+	position: unset;
 }
 
 .apps {
 	height: 20px;
-	top: 3px;
+	/*! top: 3px; */
 }
 
 .notify {
 	
 	height: 24px;
 	position: relative;
-	top: 3px;
+	/*! top: 3px; */
 }
 
 .user {
 	border-radius: 24px;
-	top: 4px;
+	/*! top: 4px; */
 	position: relative;
 }
 
@@ -81,7 +86,7 @@ li:hover {
 section {
 	padding-top: 103px;
 	min-height: 100%;
-	padding-bottom: 42px;
+	padding-bottom: 53px;
 }
 
 
