@@ -1,0 +1,52 @@
+.content {
+	margin: 0 auto;
+
+}
+
+.googlelogo {
+	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 70px;
+	margin-top: 89px;
+}
+
+.searchbar {
+	
+	display: block;
+
+	margin-left: auto;
+	margin-right: auto;
+	width: 384px;
+	margin-top: 10px;
+	border-style: solid;
+	box-shadow: 3px 3px 6px hsl(0, 3.8%, 89.8%);
+	padding: 7px;
+}
+
+.buttons {
+	width: 275px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+.buttons input{
+	background: #e3e0e033;
+	height: 36px; width: 125.333px;
+	display: block;
+	border-style: solid;
+}
+
+#search {
+	/*margin-left: auto;*/
+	margin-right: auto;
+	float: left;
+
+}
+
+#im_feeling_lucky {
+	margin-left: auto;
+	/*margin-right: auto;*/
+}
