@@ -1,3 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	margin: 0 ;
+	height: 30px;
+}
+
+nav li {
+	list-style-type: none;
+	display: inline-block;
+	margin: 10px 13px;
+}
+
+nav .left {
+	float: left;
+}
+
+nav .right {
+	float: right;
+}
+
 .content {
 	margin: 0 auto;
 
@@ -9,7 +33,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	height: 70px;
-	margin-top: 89px;
+	margin-top: 59px;
 }
 
 .searchbar {
