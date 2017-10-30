@@ -23,16 +23,16 @@ html, body {
 
 
 nav {
-	/*! height: 42px; */
+	height: 58px;
 	width: 100%;
 	text-align: justify;
 	max-height: 100%;
+	position: relative;
 }
 
 li {
 	list-style-type: none;
 	display: inline-block;
-	position: relative;
 	max-height: 100%;
 
 	margin: 11px;
@@ -50,16 +50,27 @@ li:hover {
 	text-decoration: underline;
 }
 
-
-
-.left {
-	float: left;
-	min-height: 10%;
+.topleft {
+	/*! float: left; */
+	height: 39px;
+	position: absolute;
+	top: 50%;
+	margin-top: -19.5px;
 }
 
-.right {
+.topright {
+	position: absolute;
+	right: 0px;
+}
+
+
+.bottomleft {
+	float: left;
+	height: 41px;
+}
+
+.bottomright {
 	float: right;
-	position: unset;
 }
 
 .apps {
@@ -76,7 +87,6 @@ li:hover {
 
 .user {
 	border-radius: 24px;
-	/*! top: 4px; */
 	position: relative;
 }
 
